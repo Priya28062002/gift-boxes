@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+#img1{
+    position: absolute;
+    height: 100vh;
+    width:100vw;
+}
+#content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+#heading{ 
+    position: relative;
+    color: rgb(49, 190, 212); 
+    font: bold 52px Helvetica, Arial, Sans-Serif;
+    text-shadow: 1px 1px #fe4902, 
+                 2px 2px #fe4902, 
+                 3px 3px #fe4902;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition:    all 0.12s ease-out;
+    -ms-transition:     all 0.12s ease-out;
+    -o-transition:      all 0.12s ease-out;
+ }
+ #heading:hover {
+    position: relative; 
+    top: -10px; 
+    left: -10px; 
+    text-shadow: 1px 1px #fe4902, 
+                 2px 2px #fe4902, 
+                 3px 3px #fe4902, 
+                 4px 4px #fe4902, 
+                 5px 5px #fe4902, 
+                 6px 6px #fe4902;
+
+ }
+ #textBox{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 2em;
+    opacity: 0.9;
+    margin-top: 5vh;
+    background-color:lavender;
+    border: 2px solid green;
+    color: green;
+    position: relative;
+ }
+ #generateButton{
+    outline:none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius:40px;
+    background: #fff;
+    border: 2px solid green;
+    color:green;
+    letter-spacing:1px;
+    text-shadow:0;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 10px;
+  
+ }
+ 
+ #grid{
+    background-color: rgb(255, 255, 255);
+    margin: 2vh auto;
+    padding-top: 2vh;
+    align-items: center;
+    width: 50vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    opacity: 0.6;
+    border-radius: 50px;
+}
